@@ -1,0 +1,163 @@
+*{
+    font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    height: 50px;
+    border: 20px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid hsl(26, 100%, 55%);
+}
+.sneakers{
+    margin-left: 40px;
+}
+ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    left: 200px;
+}
+a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: grey;
+}
+.cart{
+    position: absolute;
+    margin-left: 650px;
+    top: 20px;
+}
+.cart:hover{
+    filter: brightness(0) saturate(100%);
+}
+.avatar{
+    transform: scale(0.5);
+}
+.one{
+    margin-left: -150px;
+    margin-top: -120px;
+}
+.product-1{
+    transform: scale(0.59);
+    border-radius: 20px;
+}
+.arrange{
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    position: relative;
+    border-radius: 10px;
+    margin-top: -900px;
+    transform: scale(0.7);
+    margin-left: 9px;
+    align-items: center;
+}
+.company{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    color: orangered;
+}
+.fall{
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    font-size: 40px;
+}
+.low-profile{
+    position: absolute;
+    top: 450px;
+    left: 850px;
+    align-items: start;
+    font-size: 20px;
+}
+.money-1{
+    position: absolute;
+    top: 570px;
+    left: 857px;
+}
+.percent{
+    position: absolute;
+    top: 575px;
+    left: 950px;
+    color: orangered;
+    background-color: hsl(25, 100%, 94%);
+    width: 50px;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+h4{
+    position: absolute;
+    color: grey;
+    top: 600px;
+    left: 857px;
+    text-decoration: line-through;
+}
+.div{
+    width: 130px;
+    height: 60px;
+    position: relative;
+    left: 850px;
+    top: -280px;
+    bottom: 70px;
+    border-radius: 10px;
+    background-color: hsla(217, 21%, 81%, 0.391);
+}
+.minus{
+    position: absolute;
+    margin: 32px;
+    float: left;
+    left: -20px;
+}
+.plus{
+    position: absolute;
+    float: right;
+    margin: 25px;
+    left: 85px;
+}
+.icon{
+    color: white;
+}
+.add{
+    position: absolute;
+    top: -7px;
+    color: white;
+    left: 90px;
+}
+.icon{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    color: white;
+}
+.cart-2{
+    display: block;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    border-top: 30px;
+    height: 40px;
+    justify-content: space-around;
+    width: 250px;
+    position:absolute;
+    top: 675px;
+    left: 1000px;
+    padding: 10px;
+}
+
+@media(max-width:649px) {
+
+}
